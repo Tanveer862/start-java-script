@@ -15,23 +15,28 @@ let a=15;
 a++;
 console.log(a);
 // power of second number
+console.log('......power of Second Number.......')
 let c=3;
 let d=4;
 const result=c**d;
 console.log(result);
 //comparision operator
 // Number equal 
+console.log('...........Check Number Equal............');
 let xy=c==d;
 console.log(xy);
 // Number Not equal
+console.log('...........Check Number Not equal..............');
 let ab= c!=d;
 console.log(ab);
 // equal or Not in type or value
 // first check data type and than check value
+console.log('........First check data type  than  value check............')
 let yz=c===d;
 console.log(yz);
 // Logical operator 
 // AND operator 
+console.log('.......AND operator.....')
 let m=true;
 let n=false;
 let abc=m&&n;
@@ -71,9 +76,8 @@ else if(marks>60){
 else {
     console.log('Low Marks');
 }
-console.log('................');
-console.log('Nested If Statement');
-console.log('................');
+console.log('........Nested If Statement.......');
+
 let Age=15;
 if(Age>20){
     console.log('You Must B Vote');
@@ -85,4 +89,40 @@ else{
     console.log('You Cannot Vote ');
     if(Age<16)
         console.log('You must have ID card ');
+}
+//Ternary operator
+console.log('.........Ternary operator.........');
+const Marks=40;
+const Result  = Marks>40 ? "PASSED": "FAILED";
+console.log('Result',Result);
+// Switch statement
+console.log('..........Switch statement..........');
+const grade='A';
+switch(grade){
+    case 'A':
+        console.log('Very Good');
+        break;
+        case 'B':
+            console.log(' Good ....Keep learning');
+            break;
+            case 'C':
+                console.log(' Not improving');
+                break;
+                case 'D':
+                    console.log('Not Good');
+                    break;
+                    default:
+                        console.log('Invalid grade');
+}
+// For Loop 
+console.log('.........Start For loop..........');
+for(index=0; index<10; index++){
+    console.log('Jazba Innovation');
+}
+// while loop 
+console.log('.......while loop.......');
+let step=0;
+while(step<10){
+    console.log('Step',step);
+    step++;
 }
